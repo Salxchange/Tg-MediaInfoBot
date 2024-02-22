@@ -51,4 +51,4 @@ COPY . .
 
 RUN chmod +x start
 
-CMD ["bash", "start"]
+CMD ["bash","start"]
