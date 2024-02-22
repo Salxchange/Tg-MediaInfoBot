@@ -25,8 +25,6 @@ RUN wget -q -O /tmp/libzen0v5.deb http://th.archive.ubuntu.com/ubuntu/pool/unive
   && dpkg -i /tmp/libzen0v5.deb \
   && rm /tmp/libzen0v5.deb
 
-RUN apt-get install libmediainfo-dev
-
 RUN wget -q -O /tmp/libtinyxml2-6a.deb http://kr.archive.ubuntu.com/ubuntu/pool/universe/t/tinyxml2/libtinyxml2-6a_7.0.0+dfsg-1build1_amd64.deb \
   && dpkg -i /tmp/libtinyxml2-6a.deb \
   && rm /tmp/libtinyxml2-6a.deb
